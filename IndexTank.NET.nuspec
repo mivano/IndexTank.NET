@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>indextank.net</id>
+    <version>1.0.0</version>
+    <authors>Loggify</authors>
+    <owners>Michiel van Oudheusden</owners>
+    <summary>A .NET port of the Java version of the IndexTank search API.</summary>
+    <description>A REST client to connect to the IndexTank service, which is a cloud based search engine.
+	
+	Use this library to easily send documents, including all kinds of meta data, to IndexTank and perform searches on the indexes. 
+	</description>
+    <language>en-US</language>
+	  <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/mivano/IndexTank.NET</projectUrl>    
+    <dependencies>
+      <dependency id="Newtonsoft.Json" />
+    </dependencies>
+    <tags>search searching rest indextank document facets saas</tags>
+  </metadata>
+</package>
