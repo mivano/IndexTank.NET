@@ -312,7 +312,7 @@ namespace IndexTank
                     }
                 }
             }
-    
+
 
             public void AddDocument(string documentId, Dictionary<string, string> fields)
             {
@@ -705,8 +705,9 @@ namespace IndexTank
 
         public void Add(string key, string value)
         {
-            var values = _innerMap[key];
-            if (values != null)
+
+            List<string> values;
+            if (_innerMap.TryGetValue(key, out values))
             {
                 values.Add(value);
             }
@@ -724,9 +725,12 @@ namespace IndexTank
 
         public string GetFirst(string key)
         {
-            var values = _innerMap[key];
-            if (values != null && values.Count > 0)
-                return values[0];
+            if (_innerMap.ContainsKey(key))
+            {
+                var values = _innerMap[key];
+                if (values != null && values.Count > 0)
+                    return values[0];
+            }
             return null;
         }
 
