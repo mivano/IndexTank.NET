@@ -1,0 +1,10 @@
+C:\Projects\private\Loggify\IndexTank.Tests\bin\Release\IndexTank.Tests.dll
+C:\Projects\private\Loggify\IndexTank.Tests\bin\Release\IndexTank.Tests.pdb
+C:\Projects\private\Loggify\IndexTank.Tests\bin\Release\IndexTank.dll
+C:\Projects\private\Loggify\IndexTank.Tests\bin\Release\Newtonsoft.Json.dll
+C:\Projects\private\Loggify\IndexTank.Tests\bin\Release\IndexTank.pdb
+C:\Projects\private\Loggify\IndexTank.Tests\bin\Release\Newtonsoft.Json.pdb
+C:\Projects\private\Loggify\IndexTank.Tests\bin\Release\Newtonsoft.Json.xml
+C:\Projects\private\Loggify\IndexTank.Tests\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\private\Loggify\IndexTank.Tests\obj\Release\IndexTank.Tests.dll
+C:\Projects\private\Loggify\IndexTank.Tests\obj\Release\IndexTank.Tests.pdb
