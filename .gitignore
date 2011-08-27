@@ -30,6 +30,7 @@ obj/
 [Dd]ebug*/
 [Rr]elease*/
 Ankh.NoLoad
+*.vs10x
 
 #InstallShield
 [Ss]ingle[Ii]mage/
@@ -49,3 +50,4 @@ _ReSharper*/
 
 # Office Temp Files
 ~$*
+/packages

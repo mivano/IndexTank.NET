@@ -8,7 +8,7 @@ namespace IndexTank.Tests
     public class IndexTankFixture
     {
         private const String INDEX_NAME = "Index";
-        private const String APIURL = "http://:0GoaPt9n+HmLx3@djtun.api.indextank.com";
+        private const String APIURL = "";
 
         [TestCleanup]
         public void Cleanup()
@@ -82,7 +82,7 @@ namespace IndexTank.Tests
 
             index.AddDocument("DOC1", fields);
 
-             fields = new Dictionary<string, string>{
+            fields = new Dictionary<string, string>{
                              {"text", "This is another document"}, 
                              {"category", "test material"}
             };
@@ -101,7 +101,7 @@ namespace IndexTank.Tests
             System.Threading.Thread.Sleep(3000);
 
             var query = new Query("text:document");
-            query.WithFetchFields(new[] {"text", "category", "price"});
+            query.WithFetchFields(new[] { "text", "category", "price" });
 
             var results = index.Search(query);
 

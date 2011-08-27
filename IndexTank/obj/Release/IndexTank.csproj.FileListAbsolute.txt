@@ -1,8 +1,0 @@
-C:\Projects\private\Loggify\IndexTank\bin\Release\IndexTank.dll
-C:\Projects\private\Loggify\IndexTank\bin\Release\IndexTank.pdb
-C:\Projects\private\Loggify\IndexTank\bin\Release\Newtonsoft.Json.dll
-C:\Projects\private\Loggify\IndexTank\bin\Release\Newtonsoft.Json.pdb
-C:\Projects\private\Loggify\IndexTank\bin\Release\Newtonsoft.Json.xml
-C:\Projects\private\Loggify\IndexTank\obj\Release\ResolveAssemblyReference.cache
-C:\Projects\private\Loggify\IndexTank\obj\Release\IndexTank.dll
-C:\Projects\private\Loggify\IndexTank\obj\Release\IndexTank.pdb
