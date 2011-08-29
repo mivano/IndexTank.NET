@@ -5,11 +5,7 @@ if not exist Download\package\lib\net40 mkdir Download\package\lib\net40
 
 copy LICENSE.txt Download
 
-cd indextank
-
--- %systemroot%\Microsoft.NET\Framework\v4.0.30319\msbuild.exe  /t:Build /p:Configuration=Debug IndexTank.csproj
-
-cd ..
+%systemroot%\Microsoft.NET\Framework\v4.0.30319\msbuild.exe  /t:Build /p:Configuration=Release IndexTank.NET.sln
 
 tools\ilmerge.exe /lib:IndexTank\bin\Release /internalize /ndebug /v2 /out:Download\IndexTank.dll IndexTank.dll Newtonsoft.Json.dll
 
